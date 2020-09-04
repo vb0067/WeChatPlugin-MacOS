@@ -222,7 +222,9 @@ FOUNDATION_EXPORT const unsigned char WeChatPluginVersionString[];
 - (void)removeSessionOfUser:(id)arg1 isDelMsg:(BOOL)arg2;
 - (void)sortSessions;
 - (void)FFDataSvrMgrSvrFavZZ;
+- (id)getSessionContact:(id)arg1;
 - (id)getContact:(id)arg1;
+
 @end
 
 @interface LogoutCGI : NSTableCellView

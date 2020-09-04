@@ -458,7 +458,17 @@
     NSString *userName = addMsg.fromUserName.string;
     
     MMSessionMgr *sessionMgr = [[objc_getClass("MMServiceCenter") defaultCenter] getService:objc_getClass("MMSessionMgr")];
-    WCContactData *msgContact = [sessionMgr getContact:userName];
+    unsigned int count; // 1
+    Method *methods = class_copyMethodList([sessionMgr class], &count); // 2
+    for (int i = 0; i < count; i++) { // 3
+        const char *methodNameChar = sel_getName(method_getName(methods[i]));
+        NSString *methodName = [[NSString alloc] initWithCString:methodNameChar encoding:NSUTF8StringEncoding];
+        NSLog(@"%@", methodName); // 4
+        Method result9 = class_getClassMethod([sessionMgr class], NSSelectorFromString(methodName));
+          NSLog(@"%s", result9); // 4
+        //
+    } // 5
+    WCContactData *msgContact = [sessionMgr getSessionContact:userName];
     if ([msgContact isBrandContact] || [msgContact isSelf]) {
         //        该消息为公众号或者本人发送的消息
         return;
