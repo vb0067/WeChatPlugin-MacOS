@@ -13,9 +13,12 @@ typedef NS_ENUM(NSUInteger, TKVersionStatus) {
     TKVersionStatusNew,
 };
 
+/**
+ 版本自动更新
+ */
 @interface TKVersionManager : NSObject
 
-+ (instancetype)shareManager;
++ (instancetype _Nullable )shareManager;
 - (void)checkVersionFinish:(void (^)(TKVersionStatus, NSString *))finish;
 - (void)downloadPluginProgress:(void (^)(NSProgress *downloadProgress))downloadProgressBlock completionHandler:(void (^)(NSString *filePath, NSError * _Nullable error))completionHandler;
 - (void)cancelDownload;

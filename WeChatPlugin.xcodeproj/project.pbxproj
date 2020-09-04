@@ -59,8 +59,6 @@
 		52B5CEF31F3B4623000D9DD9 /* TKRemoteControlScript.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 52B5CEF11F3B4623000D9DD9 /* TKRemoteControlScript.scpt */; };
 		52B5CF141F3B4631000D9DD9 /* TKWeChatPluginConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B5CEF91F3B4631000D9DD9 /* TKWeChatPluginConfig.h */; };
 		52B5CF151F3B4631000D9DD9 /* TKWeChatPluginConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B5CEFA1F3B4631000D9DD9 /* TKWeChatPluginConfig.m */; };
-		52B5CF181F3B4631000D9DD9 /* TKRemoteControlModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B5CEFF1F3B4631000D9DD9 /* TKRemoteControlModel.h */; };
-		52B5CF191F3B4631000D9DD9 /* TKRemoteControlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B5CF001F3B4631000D9DD9 /* TKRemoteControlModel.m */; };
 		52B5CF1A1F3B4631000D9DD9 /* TKHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B5CF021F3B4631000D9DD9 /* TKHelper.h */; };
 		52B5CF1B1F3B4631000D9DD9 /* TKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B5CF031F3B4631000D9DD9 /* TKHelper.m */; };
 		52CD4C58209C5CA10061A5D6 /* NSWindowController+Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CD4C56209C5CA10061A5D6 /* NSWindowController+Action.h */; };
@@ -86,12 +84,9 @@
 		52DA3E0F2094790900C618BB /* TKDownloadWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DA3E0C2094790900C618BB /* TKDownloadWindowController.xib */; };
 		52EA235920862D19008E6329 /* TKHTTPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EA235720862D19008E6329 /* TKHTTPManager.h */; };
 		52EA235A20862D19008E6329 /* TKHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA235820862D19008E6329 /* TKHTTPManager.m */; };
-		581E98663A5F0E6327516AA8 /* libPods-WeChatPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F7A08DC0E3A0626801414D /* libPods-WeChatPlugin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B308B4A92CE38341762A48 /* Pods-WeChatPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatPlugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatPlugin/Pods-WeChatPlugin.release.xcconfig"; sourceTree = "<group>"; };
-		17F7A08DC0E3A0626801414D /* libPods-WeChatPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatPlugin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		520AE6E6208E1DA300BADE47 /* TKMessageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKMessageManager.h; sourceTree = "<group>"; };
 		520AE6E7208E1DA300BADE47 /* TKMessageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKMessageManager.m; sourceTree = "<group>"; };
 		520AE6EF208E231F00BADE47 /* NotifyConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyConstant.h; sourceTree = "<group>"; };
@@ -150,8 +145,6 @@
 		52B5CEF11F3B4623000D9DD9 /* TKRemoteControlScript.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = TKRemoteControlScript.scpt; sourceTree = "<group>"; };
 		52B5CEF91F3B4631000D9DD9 /* TKWeChatPluginConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKWeChatPluginConfig.h; sourceTree = "<group>"; };
 		52B5CEFA1F3B4631000D9DD9 /* TKWeChatPluginConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKWeChatPluginConfig.m; sourceTree = "<group>"; };
-		52B5CEFF1F3B4631000D9DD9 /* TKRemoteControlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRemoteControlModel.h; sourceTree = "<group>"; };
-		52B5CF001F3B4631000D9DD9 /* TKRemoteControlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRemoteControlModel.m; sourceTree = "<group>"; };
 		52B5CF021F3B4631000D9DD9 /* TKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKHelper.h; sourceTree = "<group>"; };
 		52B5CF031F3B4631000D9DD9 /* TKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKHelper.m; sourceTree = "<group>"; };
 		52CD4C56209C5CA10061A5D6 /* NSWindowController+Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSWindowController+Action.h"; sourceTree = "<group>"; };
@@ -182,7 +175,6 @@
 		52DA3E0C2094790900C618BB /* TKDownloadWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TKDownloadWindowController.xib; sourceTree = "<group>"; };
 		52EA235720862D19008E6329 /* TKHTTPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKHTTPManager.h; sourceTree = "<group>"; };
 		52EA235820862D19008E6329 /* TKHTTPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKHTTPManager.m; sourceTree = "<group>"; };
-		888B2791FA0BBCC192BADA47 /* Pods-WeChatPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatPlugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatPlugin/Pods-WeChatPlugin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,7 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				581E98663A5F0E6327516AA8 /* libPods-WeChatPlugin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,18 +191,8 @@
 		13EC3A000F46808B50A62C6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				17F7A08DC0E3A0626801414D /* libPods-WeChatPlugin.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3C138513A2C7760B47317A95 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				888B2791FA0BBCC192BADA47 /* Pods-WeChatPlugin.debug.xcconfig */,
-				13B308B4A92CE38341762A48 /* Pods-WeChatPlugin.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		520AE6F9208F646200BADE47 /* Utils */ = {
@@ -320,7 +301,6 @@
 			children = (
 				528B4F941EA7383800BC6A89 /* WeChatPlugin */,
 				528B4F931EA7383800BC6A89 /* Products */,
-				3C138513A2C7760B47317A95 /* Pods */,
 				13EC3A000F46808B50A62C6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -387,8 +367,6 @@
 				529CDDFD1F6E6A060056DC1A /* TKBaseModel.m */,
 				526F4D811F4AAC1900E46004 /* TKAutoReplyModel.h */,
 				526F4D821F4AAC1900E46004 /* TKAutoReplyModel.m */,
-				52B5CEFF1F3B4631000D9DD9 /* TKRemoteControlModel.h */,
-				52B5CF001F3B4631000D9DD9 /* TKRemoteControlModel.m */,
 				52475C301F6BA43800760E3E /* TKIgnoreSessonModel.h */,
 				52475C311F6BA43800760E3E /* TKIgnoreSessonModel.m */,
 			);
@@ -508,7 +486,6 @@
 				52475C321F6BA43800760E3E /* TKIgnoreSessonModel.h in Headers */,
 				52810B6B21E8FCF500861FC3 /* TKUtility.h in Headers */,
 				52206B6A20836A230010C232 /* NSMenu+Action.h in Headers */,
-				52B5CF181F3B4631000D9DD9 /* TKRemoteControlModel.h in Headers */,
 				52CD4C7D209ED2300061A5D6 /* TKAutoReplyContentView.h in Headers */,
 				5226D5CA2040FC3E0013C048 /* TKVersionManager.h in Headers */,
 				520F2009205E1DF900A36B1E /* TKWebServerManager.h in Headers */,
@@ -570,6 +547,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				"zh-Hans",
 				"zh-Hant",
@@ -669,7 +647,6 @@
 				5226D5CB2040FC3E0013C048 /* TKVersionManager.m in Sources */,
 				52CD4C7E209ED2300061A5D6 /* TKAutoReplyContentView.m in Sources */,
 				520AE6E9208E1DA300BADE47 /* TKMessageManager.m in Sources */,
-				52B5CF191F3B4631000D9DD9 /* TKRemoteControlModel.m in Sources */,
 				5228EABB1F70B59500D808CF /* NSButton+Action.m in Sources */,
 				52CD4C59209C5CA10061A5D6 /* NSWindowController+Action.m in Sources */,
 				52CD4C82209ED23B0061A5D6 /* TKRemoteControlCell.m in Sources */,
@@ -838,7 +815,6 @@
 		};
 		528B4F9B1EA7383800BC6A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 888B2791FA0BBCC192BADA47 /* Pods-WeChatPlugin.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -860,7 +836,6 @@
 		};
 		528B4F9C1EA7383800BC6A89 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13B308B4A92CE38341762A48 /* Pods-WeChatPlugin.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
